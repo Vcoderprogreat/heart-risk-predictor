@@ -8,6 +8,9 @@ Build a machine learning model predicting heart disease risk using the UCI Heart
 
 This project combines **Biotech (clinical biomarkers)**, **Business (cost-saving recommendations)**, and **Data Analysis (full ML pipeline)**.
 
+## Live Demo
+Try the interactive Streamlit dashboard here: [Heart Risk Predictor](https://heart-risk-predictor-vb.streamlit.app/)
+
 ## Repository Contents
 - `HeartRisk_Final_EDA.ipynb` – Exploratory analysis, data cleaning, logistic regression, and random forest modeling
 - `app.py` – Interactive Streamlit dashboard for predicting heart disease risk
