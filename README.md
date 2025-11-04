@@ -3,23 +3,28 @@
 ## Project Goal
 Build a machine learning model predicting heart disease risk using the UCI Heart Disease dataset and deliver:
 - An interactive Streamlit dashboard
-- A Jupyter/Colab notebook with full analysis and modeling
+- A Colab notebook with full analysis and modeling
 - A 1-page business/clinical insights report
 
 This project combines **Biotech (clinical biomarkers)**, **Business (cost-saving recommendations)**, and **Data Analysis (full ML pipeline)**.
 
-## Contents
-- `notebook.ipynb`: exploratory analysis, data cleaning, logistic regression, and random forest modeling
-- `app.py`: Streamlit dashboard (interactive risk predictor)
-- `requirements.txt`: Python dependencies
-- `README.md`: project overview and instructions
+## Repository Contents
+- `HeartRisk_Final_EDA.ipynb` – Exploratory analysis, data cleaning, logistic regression, and random forest modeling
+- `app.py` – Interactive Streamlit dashboard for predicting heart disease risk
+- `best_model.pkl` – Saved Random Forest model used by the dashboard
+- `heart.csv` – Sample dataset (UCI Heart Disease).
+- `requirements.txt` – Python dependencies
+- `README.md` – Project overview and instructions
 
 ## Tech Stack
-- Python: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `streamlit`
-- Hosting: Streamlit Cloud
-- Version control: GitHub
+- **Python libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `streamlit`
+- **Hosting**: Streamlit Cloud
+- **Version control**: GitHub
 
 ## How to Run Locally
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vcoderprogreat/heart-risk-predictor.git
+   cd heart-risk-predictor
+   pip install -r requirements.txt
+   streamlit run app.py
