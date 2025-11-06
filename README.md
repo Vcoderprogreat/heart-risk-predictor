@@ -5,8 +5,7 @@ Build a machine learning model predicting heart disease risk using the UCI Heart
 - An interactive Streamlit dashboard
 - A Colab notebook with full analysis and modeling
 - Business/clinical insights white paper
-
-This project combines **Biotech (clinical biomarkers)**, **Business (cost-saving recommendations)**, and **Data Analysis (full ML pipeline)**.
+- Working ML Model
 
 ## Project Report
 View the full white paper: [Project Report PDF](https://github.com/Vcoderprogreat/heart-risk-predictor/blob/main/Heart%20Risk%20Predictor.pdf)
