@@ -7,11 +7,17 @@ Build a machine learning model predicting heart disease risk using the UCI Heart
 - Business/clinical insights white paper
 - Working ML Model
 
+## Model Overview
+Logistic Regression and Random Forest models were built and used to predict heart disease risk using clinical and demographic features. Data preprocessing, feature encoding, and scaling were handled in Colab, and model performance was assessed through accuracy, recall, and F1-score. A simple baseline heuristic (age > 55 OR chol > 240) was tested for comparison, but both models significantly outperformed it. The Random Forest achieved the best results with 81.5% accuracy and strong precision-recall balance, making it the chosen production model. 
+
 ## Project Report
 View the full white paper: [Project Report PDF](https://github.com/Vcoderprogreat/heart-risk-predictor/blob/main/Heart%20Risk%20Predictor%20Final%20Report.pdf)
 
 ## Live Demo
 Try the interactive Streamlit dashboard here: [Heart Risk Predictor](https://heart-risk-predictor-vb.streamlit.app/)
+
+## Limitations
+This project is for educational and research purposes only. Predictions are probabilistic and should not replace clinical diagnosis. The model was trained on a limited dataset of 1,026 samples, which may reduce generalizability. Dataset bias in age or gender distribution may also affect accuracy. 
 
 ## Repository Contents
 - `HeartRisk_Final_EDA.ipynb` – Exploratory analysis, data cleaning, logistic regression, and random forest modeling
